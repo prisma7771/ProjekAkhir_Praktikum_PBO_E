@@ -49,7 +49,6 @@ public class ModelMenuShowAdmin {
         try {
             data3 = new String[mhd.HitungData()][7];
             int jmlData = 0;
-            System.out.println("LAPARRR");
             String query = "Select * from detail WHERE genre ='" + kategori +"'" ;
             statement = (Statement) ConnectDatabase.Database().createStatement();
             ResultSet resultSet = statement.executeQuery(query);

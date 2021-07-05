@@ -118,7 +118,6 @@ public class ControllerMenuAdmin implements ActionListener {
                 showMessageDialog(null, "Tahun Must Digit");
                 help = 1;
             } else if (help == 0) {
-                System.out.println("cek");
                 if (mmsa.TambahData(judul, publisher, tahun, rilis, status, genre) == 1) {
                     JOptionPane.showMessageDialog(null, "Anime " + judul + " berhasil ditambahkan!");
                 } else {

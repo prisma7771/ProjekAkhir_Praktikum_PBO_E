@@ -37,12 +37,6 @@ public class ControllerEditData implements ActionListener {
             String rilis = ved.getRilis();
             String status = ved.getStatus();
             String genre = ved.getGenre();
-            System.out.println(id);
-            System.out.println(judul);
-            System.out.println(publisher);
-            System.out.println(tahun);
-            System.out.println(rilis);
-            System.out.println(genre);
 
             int help = 0;
 
